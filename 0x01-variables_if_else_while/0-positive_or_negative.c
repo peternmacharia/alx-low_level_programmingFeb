@@ -20,4 +20,4 @@ int main(void)
 		printf("n is zero \n");
 	if (n < 0)
 		printf("n is negative \n");
-	return (n);
+		return (n);
