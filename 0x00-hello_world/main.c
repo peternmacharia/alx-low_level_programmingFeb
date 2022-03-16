@@ -1,4 +1,6 @@
 #include <stdio.h>
+export CFILE=main.c;
+./0-preprocessor
 /**
  * main - Entry point
  *
