@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -e &CFILE=main.c --output c
+gcc -E CFILE=main.c -o c
