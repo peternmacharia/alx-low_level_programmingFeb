@@ -8,6 +8,6 @@ void print_alphabet(void);
  */
 int main(void)
 {
-	print_alphabet();
+	printf(print_alphabet()"\n");
 	return (0);
 }
