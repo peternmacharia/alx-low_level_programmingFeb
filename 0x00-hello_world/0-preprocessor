@@ -1,2 +1,0 @@
-#1/bin/bash
-gcc -e &CFILE=main.c --output c
