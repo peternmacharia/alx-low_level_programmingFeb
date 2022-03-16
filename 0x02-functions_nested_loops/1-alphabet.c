@@ -8,7 +8,10 @@ void print_alphabet(void);
  */
 int main(void)
 {
-	print_alphabet();
+	char _putchar;
+	char alphabet = "abcdefghijklmnopqrstuvwxyz";
+	_putchar = print_alphabet(alphabet);
+	printf(_putchar "\n");
 	return (0);
 }
 
