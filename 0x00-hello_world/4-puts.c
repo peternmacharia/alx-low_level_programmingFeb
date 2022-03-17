@@ -2,8 +2,7 @@
 #include <string.h>
 int main(void)
 {
-	char string;
-	strcpy(str, ""Programming is like building a multilingual puzzle");
-	puts(string);
+	char my_text= "\"Programming is like building a multilingual puzzle";
+	puts(my_text);
 	return (0);
 }
