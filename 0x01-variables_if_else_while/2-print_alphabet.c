@@ -10,5 +10,6 @@ int main(void)
 	char alphabets;
 
 	alphabets = "abcdefghijklmnopqrstuvwxyz";
+	putchar(alphabets);
 	return (0);
 }
