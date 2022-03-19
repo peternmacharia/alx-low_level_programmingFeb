@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char alphabets;
+	int alphabets;
 
 	alphabets = "abcdefghijklmnopqrstuvwxyz";
 	putchar(alphabets);
