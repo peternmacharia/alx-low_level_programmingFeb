@@ -8,7 +8,7 @@
  */
 int main(void)
 {
-	char alphas;
+	int alphas;
 
 	alphas='abcdefghijklmnopqrstuvwxyz';	
 	putchar(alphas);
