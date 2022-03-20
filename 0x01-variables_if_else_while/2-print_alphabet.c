@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -7,8 +8,9 @@
  */
 int main(void)
 {
-	char alphas[30] = 'abcdefghijklmnopqrstuvwxyz';
-	
+	char alphas;
+
+	alphas='abcdefghijklmnopqrstuvwxyz';	
 	putchar(alphas);
 	return (0);
 }
