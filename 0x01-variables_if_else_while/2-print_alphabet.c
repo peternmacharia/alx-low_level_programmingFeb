@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	char alphas = 'abcdefghijklmnopqrstuvwxyz';
+	char alphas[30] = 'abcdefghijklmnopqrstuvwxyz';
 	
 	putchar(alphas);
 	return (0);
