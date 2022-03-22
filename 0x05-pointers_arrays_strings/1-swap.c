@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap_in - Entry point
+ * swap_int - Entry point
  *
  * @a - first pointer
  * @b - second pointer
