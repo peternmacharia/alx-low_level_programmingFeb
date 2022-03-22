@@ -1,3 +1,4 @@
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -5,13 +6,10 @@
  *   *
  *    * Return: Always 0.
  *     */
-int main(void)
+int main(int *n)
 {
 	int n;
 	
-	n = 402;
-	printf("n=%d\n", n);
-	reset_to_98(&n);
-	printf("n=%d\n", n);
+	*n = 98;
 	return (0);
 }
