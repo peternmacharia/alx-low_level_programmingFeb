@@ -4,10 +4,9 @@
 /**
  * reset_to_98: Entry Point
  *
- * Variable of type int n 
- * and its a pointer
- */
+ * n is a pointer
+ */ 
 void reset_to_98(int *n)
 {
-	*n=98;
+	*n = 98;
 }
