@@ -6,10 +6,7 @@
  *   *
  *    * Return: Always 0.
  *     */
-int main(int n)
+void reset_to_98(int *n)
 {
-	int n;
-	
-	n = 402;
-	return (0);
+	*n = 98;
 }
