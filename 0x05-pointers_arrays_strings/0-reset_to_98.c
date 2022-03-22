@@ -4,7 +4,7 @@
 /**
  * reset_to_98: Entry Point
  *
- * n is a pointer
+ * *n: pointer
  */ 
 void reset_to_98(int *n)
 {
