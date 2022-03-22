@@ -10,6 +10,6 @@ int main(void)
 {
 	int n;
 	
-	*n = 98;
+	n = 402;
 	return (0);
 }
