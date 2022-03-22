@@ -2,9 +2,10 @@
 #include <stdio.h>
 
 /**
- * reset_to_98: Entry Point
+ * main - Entry Point
  *
- * *n: pointer
+ * n: points
+ * Return: Always 0
  */ 
 void reset_to_98(int *n)
 {
