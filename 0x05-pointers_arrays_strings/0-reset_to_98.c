@@ -2,11 +2,12 @@
 #include <stdio.h>
 
 /**
- * main - check the code 
+ * reset_to_98: Entry Point
  *
- * Return: Always 0.
+ * Variable of type int n 
+ * and its a pointer
  */
 void reset_to_98(int *n)
 {
-	*n = 98;
+	*n=98;
 }
