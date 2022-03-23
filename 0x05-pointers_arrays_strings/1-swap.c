@@ -4,10 +4,10 @@
 /**
  * swap_int - Entry point
  *
- * @a - first pointer
- * @b - second pointer
+ * @a: Pointer
+ * @b: Pointer
  */
-void swap_int(int *a, int *b)
+int swap_int(int *a, int *b)
 {
 	int temp = *a;
 	*a = *b;
