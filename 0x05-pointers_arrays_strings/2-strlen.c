@@ -5,10 +5,17 @@
 /**
  * int_strlen - Entry point
  *
- * @s: Pointer
+ * s: Pointer
+ * Return Length of a string
  */
 int _strlen(char *s)
 {
-	char str[] = strlen(*s);
-	int len = str;
+	int i;
+	int len;
+	
+	for (i = 0; s[i]; len++)
+	{
+		len++
+	}
+	return (len);
 }
