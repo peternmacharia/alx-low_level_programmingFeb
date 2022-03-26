@@ -25,7 +25,5 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-	printf("%s", dest);
-	print("%s", src);
 	return (0);
 }
