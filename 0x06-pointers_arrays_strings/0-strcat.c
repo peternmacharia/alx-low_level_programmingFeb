@@ -21,9 +21,14 @@ char *_strcat(char *dest, char *src)
 	j = 0;
 	while(src[j] !='\0')
 	{
-		str = strcat(dest,src);
+		dest[i] = src[j];
 		i++;
 		j++;
 	}
+	dest[i] = '\0';
+	str = strcat(dest, src);
+	printf("%s", dest);
+	print("%s", src);
+	print("%s", str);
 	return (0);
 }
