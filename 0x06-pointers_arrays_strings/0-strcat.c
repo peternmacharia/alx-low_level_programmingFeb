@@ -11,8 +11,8 @@ char *_strcat(char *dest, char *src)
 {
 	char *str;
 
-	dest[] = "";
-	src[] = "";
-	str = strcat(dest,src);
+	*dest = char str1;
+	*src = char str2;
+	str = strcat(str1,str2);
 	return (0);
 }
