@@ -4,15 +4,26 @@
  * _strcat - Function main entry
  *
  * @dest: Variable String
- * @srcL Variable String
+ * @src: Variable String
  * Return: 0
  */
 char *_strcat(char *dest, char *src)
 {
 	char *str;
+	int i, j;
 
-	*dest = char str1;
-	*src = char str2;
-	str = strcat(str1,str2);
+	i = 0;
+	while(dest[i] != '\0')
+	{
+		i++;
+	}
+
+	j = 0;
+	while(src[j] !='\0')
+	{
+		str = strcat(dest,src);
+		i++;
+		j++;
+	}
 	return (0);
 }
