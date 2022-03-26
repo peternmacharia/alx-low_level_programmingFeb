@@ -9,7 +9,6 @@
  */
 char *_strcat(char *dest, char *src)
 {
-	char *str;
 	int i, j;
 
 	i = 0;
@@ -26,9 +25,7 @@ char *_strcat(char *dest, char *src)
 		j++;
 	}
 	dest[i] = '\0';
-	str = strcat(dest, src);
 	printf("%s", dest);
 	print("%s", src);
-	print("%s", str);
 	return (0);
 }
