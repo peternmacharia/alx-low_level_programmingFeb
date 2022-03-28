@@ -8,9 +8,9 @@
  * @src: pointer to memory area @dest
  * @n: number of bytes
  *
- * Return: n bytes in @dest memory area
+ * Return: n bytes to pointer @dest
  */
-char *memcpy(char *dest, char *src, unsigned int n)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
 	unsigned int i;
 
