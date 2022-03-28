@@ -2,14 +2,14 @@
 #include <stdio.h>
 
 /**
- * _strspn - function that gets the length of
- * a prefix substring
+ * _strspn - function that gets the length of a prefix substring
  *
  * @s: number of bytes in initial segment
  * @accept: bytes consistent 
  *
  * Return: number of bytes in segment @s from @accept
  */
+
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
