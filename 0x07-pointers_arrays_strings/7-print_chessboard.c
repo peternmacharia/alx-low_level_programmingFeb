@@ -2,18 +2,18 @@
 #include <stdio.h>
 
 /**
- * print_chessboard - function that prints chess board
+ * print_chessboard - function prints chessboard
  *
- * @a: number of rows
- * @[]: number of columns
+ * @a: chessboard row
+ * @[]: chessboard column
  *
- * Returns: prints the board
+ * Return: the chessboard
  */
 void print_chessboard(char (*a)[8])
 {
 	int i, j;
 
-	for (i = 0; i< 8; i++)
+	for (i = 0; i < 8; i++)
 	{
 		for (j = 0; j < 8; j++)
 		{
