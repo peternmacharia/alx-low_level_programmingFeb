@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * memset - Fills memory with constant type
+ * _memset - fills memory with constant type
  *
  * @s: pointer to memory area to fill
  * @b: constant byte
@@ -18,5 +18,6 @@ char *_memset(char *s, char b, unsigned int n)
 	{
 		s[i] = b;
 	}
+
 	return (s);
 }
