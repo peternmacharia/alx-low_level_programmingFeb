@@ -4,12 +4,11 @@
 /**
  * _strspn - function that gets the length of a prefix substring
  *
- * @s: number of bytes in initial segment
- * @accept: bytes consistent 
+ * @s: number of bytes in it's segment
+ * @accept: the bytes that need to match with @s
  *
- * Return: number of bytes in segment @s from @accept
+ * Return: the number of bytes in initial segment
  */
-
 unsigned int _strspn(char *s, char *accept)
 {
 	int i, j;
@@ -22,9 +21,7 @@ unsigned int _strspn(char *s, char *accept)
 			for (j = 0; accept[j] != '\0'; j++)
 			{
 				if (s[i] == accept[j])
-				{
 					c++;
-				}
 			}
 		}
 		else
